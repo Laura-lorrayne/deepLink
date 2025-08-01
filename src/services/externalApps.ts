@@ -70,8 +70,8 @@ const abrirNavegador = async () => {
             Linking.openURL(urlWeb);
         } else {
             Alert.alert(
-                'WhatsApp não encontrado',
-                'WhatsApp não encontrado neste dispositivo. Deseja baixar o aplicativo?',
+                'Navegador não encontrado',
+                'Navegador não encontrado neste dispositivo. Deseja baixar o aplicativo?',
                 [
                     { text: 'Cancelar', style: 'cancel' },
                     { text: 'Baixar', onPress: () => Linking.openURL(urlLoja) }
