@@ -1,8 +1,9 @@
 const linking = {
-  prefixes: ['deeplink://'],
+  prefixes: ['superapp://'],
   config: {
     screens: {
-      Home: 'home', 
+      Home: 'home',
+      Product: 'product',
     },
   },
 };
